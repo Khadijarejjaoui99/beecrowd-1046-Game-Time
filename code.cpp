@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int start, end, d=0;
     cin >> start >> end;
-    if(start <0 || start >24 || end<0 ||end >24){
+    if(start <0 || start >23 || end<0 ||end >23){
         cout<<"Please enter a valid input:"<< endl;
         cin >> start >> end;
     }
